@@ -1,0 +1,91 @@
+.body{
+  display: flex;
+}
+.gif{
+    float: left;
+    height:40px;
+  }
+  #two{
+    float: right;
+  }
+  .one{
+    float: left;
+    width: 0.7em;
+    font-size: 450%;
+    font-family: algerian, courier;
+    line-height: 50%;
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  
+  .three{
+    float:  left ;
+    width: 0.7em;
+    font-size: 450%;
+    font-family: algerian, courier;
+    line-height: 50%;
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  #four{
+    float:right;
+  }
+  p{
+      text-align: justify;
+  }
+  .box1{
+    border-style: solid;
+    border-color: #1e90ff #F5F5F5 #F5F5F5 #F5F5F5;
+    border-width:5px;
+  }
+  .box2{
+    border-style: solid;
+    border-color: #1e90ff #F5F5F5 #F5F5F5 #F5F5F5;
+    border-width:5px;
+  }
+  
+  }
+
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    float: right;
+    position: fixed;
+  }
+  
+  .topnav #myLinks {
+    display: block;
+    float: right;
+    background-color: grey;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    float: right;
+  }
+  
+  .icon{
+    float: right;
+  }
+  .topnav a.icon {
+    background-color: blue;
+   
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    float: right;
+  }
+  
